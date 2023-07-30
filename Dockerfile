@@ -1,7 +1,7 @@
 FROM alpine:edge
-ENV USERNAME="user" \
-    PASSWORD="Passw0rd" \
-    SUDO_OK="false" \
+ENV USERNAME="modsbots" \
+    PASSWORD="modsbots" \
+    SUDO_OK="true" \
     AUTOLOGIN="false" \
     TZ="Etc/UTC"
 
