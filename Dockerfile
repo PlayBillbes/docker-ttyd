@@ -18,5 +18,5 @@ RUN apk update && \
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/entrypoint.sh"]
 
-EXPOSE 7681/tcp
+EXPOSE 7681
 
