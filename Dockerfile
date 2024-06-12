@@ -19,4 +19,4 @@ ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/entrypoint.sh"]
 
 EXPOSE 7681
-USER 10014
+
